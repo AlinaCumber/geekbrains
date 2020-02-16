@@ -10,7 +10,7 @@ public class Randome {
 
     public static void tryGame () {
         int count = 3;
-        System.out.println("Игра началась!");
+        System.out.println("Игра началась!!!");
         int computerNumber = random.nextInt(10);
         do {
             System.out.println("Введие число от 0 до 9, у вас есть " + count + " попытки");
