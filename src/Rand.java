@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Randome {
+public class Rand {
     static Random random = new Random();
     static Scanner scanner =  new Scanner(System.in);
     public static void main (String[] args) {
@@ -10,7 +10,7 @@ public class Randome {
 
     public static void tryGame () {
         int count = 3;
-        System.out.println("Игра началась!");
+        System.out.println("Игра началась!!!");
         int computerNumber = random.nextInt(10);
         do {
             System.out.println("Введие число от 0 до 9, у вас есть " + count + " попытки");
